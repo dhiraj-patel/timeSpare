@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}Chill Zone{% endblock %}</title>
+        {% block head  %}{% endblock %}
+    </head>
+    <body>
+
+
+        <div class="content" id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div class="footer"></div>
+        {% block scripts %}
+        
+        {% endblock %}
+    </body>
+</html>
